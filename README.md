@@ -13,6 +13,12 @@
  * animações
  * convenções do CSS e frameworks
 
- O que é CSS ? 
- Cascading Style Sheets (CSS), ou Folha de Estilo em Cascata, é um mecanismo para adicionar estilos a um documento web (HTML);
+ Fundamento do CSS 
+ * parte 1: apresentação
+ * parte 2: Seletores
+ * Parte 3: Combinadores
+ * Parte 4: Propriedades de Dimensionamento e Espaçamento
+ * parte 5: Materiais de Apoio e questionário - Fundamentos do CSS
+
+
  
