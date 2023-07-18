@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha CSS</title>
+</head>
+<style>
+    div ~ p {
+        color: rgb(36, 10, 6);
+    }
+
+    .fundo-verde + p {
+        background: rgb(129, 224, 129);
+    }
+    .fundo-verde p ~ p {
+        background: lightgreen;
+    }
+
+</style>
+<body>
+    <div class="fundo-verde">
+        <p>Parágrafo 1 dentro da div</p>
+        <p>Parágrafo 2 dentro da div</p>
+    <span>
+        <p>Parágrafo 3 dentro da div, dentro do span</p>
+    </span>
+    </div>
+
+    <p>Parágrafo 4, fora da div</p>
+    <p>Parágrafo 5, fora da div</p>
+
+    <div class="fundo-verde">
+        <p>Parágrafo 6 dentor da div</p>
+        <P>Parágrafo 7 dentro da div</P>
+        <span>
+            <P>Parágrafo 8 dentro da div, dentro do span</P>
+        </span>
+    </div>
+
+    <p>Parágrafo 9, fora da div</p>
+    <p>Parágrafo 10, fora da div</p>
+
+    <div class="fundo-zul">
+        <p>Parágrafo 11 dentro di div</p>
+        <P>Parágrafo 12 dentro da div</P>
+        <span>
+            <P>Parágrafo 13 dentro da div, dentro do span</P>
+        </span>
+    </div>
+
+    <p>Parágrafo 14, fora da div</p>
+    <p>Parágrafo 15, fora da div</p>
+
+</body>
+</html>
